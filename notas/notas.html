@@ -1,196 +1,199 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <title>Centro Educativo La Florida</title>
   <link rel="stylesheet" href="notas.css">
 </head>
+
 <body>
 
-<div class="contenedor">
+  <div class="contenedor">
 
-  <div class="header">
-   
-    <div class="header-centro">
-      <h1>Centro Educativo La Florida</h1>
-      <p>Sistema de Información para la Administración de Notas con Metodología Escuela Nueva</p>
+    <div class="header">
+
+      <div class="header-centro">
+        <h1>Centro Educativo La Florida</h1>
+        <p>Sistema de Información para la Administración de Notas con Metodología Escuela Nueva</p>
+      </div>
+      <div class="header-admin">
+        Enhoc Bedoya<br>
+        ebedoya<br>
+        <strong>Administrador</strong>
+      </div>
     </div>
-    <div class="header-admin">
-      Enhoc Bedoya<br>
-      ebedoya<br>
-      <strong>Administrador</strong>
+
+    <div class="barra-botones">
+      <button title="Buscar">🔍</button>
+      <button title="Guardar">💾</button>
+      <button title="Imprimir">🖨️</button>
     </div>
+
+
+    <div class="titulo-seccion">Calificación de Estudiantes</div>
+
+    <div class="formulario">
+
+      <div class="fila">
+        <div class="campo campo-grande">
+          <span class="etiqueta">Docente:</span>
+          <select style="width:100%">
+            <option>JESUS GRANDE</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="fila">
+        <div class="campo">
+          <span class="etiqueta">Grado:</span>
+          <select>
+            <option>Tercero</option>
+            <option>Cuarto</option>
+            <option>Quinto</option>
+          </select>
+        </div>
+
+        <div class="campo campo-grande">
+          <span class="etiqueta">Grupo:</span>
+          <select style="width:100%">
+            <option>Florida A</option>
+            <option>Florida B</option>
+          </select>
+        </div>
+
+        <div class="campo">
+          <span class="etiqueta">Informe:</span>
+          <select>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="fila">
+        <div class="campo campo-grande">
+          <span class="etiqueta">Asignatura:</span>
+          <select>
+            <option>Ciencias Sociales</option>
+            <option>Matemáticas</option>
+            <option>Español</option>
+          </select>
+        </div>
+
+        <div class="campo">
+          <span class="etiqueta">Unidad:</span>
+          <select>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+          </select>
+        </div>
+
+        <div class="campo">
+          <span class="etiqueta">Año:</span>
+          <input type="text" value="2014" style="width:60px">
+        </div>
+      </div>
+
+    </div>
+
+    <!-- TABLA DE NOTAS -->
+    <div class="titulo-tabla">Registro de Notas — Unidad 1</div>
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Nombre del Estudiante</th>
+          <th>Actividad 1</th>
+          <th>Actividad 2</th>
+          <th>Actividad 3</th>
+          <th>Taller</th>
+          <th>Examen</th>
+          <th>Definitiva</th>
+          <th>Estado</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td style="text-align:left">Enhoc Bedoya</td>
+          <td>4.5</td>
+          <td>4.0</td>
+          <td>4.8</td>
+          <td>4.2</td>
+          <td>4.6</td>
+          <td><strong>4.4</strong></td>
+          <td>Aprobado</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td style="text-align:left">Jesus Grande</td>
+          <td>3.8</td>
+          <td>3.5</td>
+          <td>4.0</td>
+          <td>3.9</td>
+          <td>3.7</td>
+          <td><strong>3.8</strong></td>
+          <td>Aprobado</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td style="text-align:left">Juan Manuel Ruiz</td>
+          <td>2.8</td>
+          <td>3.0</td>
+          <td>2.5</td>
+          <td>2.9</td>
+          <td>2.7</td>
+          <td class="nota-baja"><strong>2.8</strong></td>
+          <td>Reprobado</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td style="text-align:left">Enhoc Bedoya</td>
+          <td>5.0</td>
+          <td>4.9</td>
+          <td>5.0</td>
+          <td>4.8</td>
+          <td>5.0</td>
+          <td><strong>4.9</strong></td>
+          <td>Aprobado</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td style="text-align:left">Jesus Grande</td>
+          <td>3.0</td>
+          <td>2.8</td>
+          <td>3.2</td>
+          <td>3.1</td>
+          <td>2.9</td>
+          <td class="nota-baja"><strong>3.0</strong></td>
+          <td>Aprobado</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td style="text-align:left">Juan Manuel Ruiz</td>
+          <td>4.1</td>
+          <td>4.3</td>
+          <td>4.0</td>
+          <td>4.5</td>
+          <td>4.2</td>
+          <td><strong>4.2</strong></td>
+          <td>Aprobado</td>
+        </tr>
+      </tbody>
+    </table>
+
+
+    <div class="pie">
+      <span>Docente: <strong>Jesus Grande</strong></span>
+      <span>Coordinador: <strong>Juan Manuel Ruiz</strong></span>
+      <span>Rector: <strong>Enhoc Bedoya</strong></span>
+    </div>
+
   </div>
-
-  <div class="barra-botones">
-    <button title="Buscar">🔍</button>
-    <button title="Guardar">💾</button>
-    <button title="Imprimir">🖨️</button>
-  </div>
-
-  
-  <div class="titulo-seccion">Calificación de Estudiantes</div>
-
-  <div class="formulario">
-
-    <div class="fila">
-      <div class="campo campo-grande">
-        <span class="etiqueta">Docente:</span>
-        <select style="width:100%">
-          <option>JESUS GRANDE</option>
-        </select>
-      </div>
-    </div>
-
-    <div class="fila">
-      <div class="campo">
-        <span class="etiqueta">Grado:</span>
-        <select>
-          <option>Tercero</option>
-          <option>Cuarto</option>
-          <option>Quinto</option>
-        </select>
-      </div>
-
-      <div class="campo campo-grande">
-        <span class="etiqueta">Grupo:</span>
-        <select style="width:100%">
-          <option>Florida A</option>
-          <option>Florida B</option>
-        </select>
-      </div>
-
-      <div class="campo">
-        <span class="etiqueta">Informe:</span>
-        <select>
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-        </select>
-      </div>
-    </div>
-
-    <div class="fila">
-      <div class="campo campo-grande">
-        <span class="etiqueta">Asignatura:</span>
-        <select>
-          <option>Ciencias Sociales</option>
-          <option>Matemáticas</option>
-          <option>Español</option>
-        </select>
-      </div>
-
-      <div class="campo">
-        <span class="etiqueta">Unidad:</span>
-        <select>
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-        </select>
-      </div>
-
-      <div class="campo">
-        <span class="etiqueta">Año:</span>
-        <input type="text" value="2014" style="width:60px">
-      </div>
-    </div>
-
-  </div>
-
-  <!-- TABLA DE NOTAS -->
-  <div class="titulo-tabla">Registro de Notas — Unidad 1</div>
-  <table>
-    <thead>
-      <tr>
-        <th>#</th>
-        <th>Nombre del Estudiante</th>
-        <th>Actividad 1</th>
-        <th>Actividad 2</th>
-        <th>Actividad 3</th>
-        <th>Taller</th>
-        <th>Examen</th>
-        <th>Definitiva</th>
-        <th>Estado</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>1</td>
-        <td style="text-align:left">Enhoc Bedoya</td>
-        <td>4.5</td>
-        <td>4.0</td>
-        <td>4.8</td>
-        <td>4.2</td>
-        <td>4.6</td>
-        <td><strong>4.4</strong></td>
-        <td>Aprobado</td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td style="text-align:left">Jesus Grande</td>
-        <td>3.8</td>
-        <td>3.5</td>
-        <td>4.0</td>
-        <td>3.9</td>
-        <td>3.7</td>
-        <td><strong>3.8</strong></td>
-        <td>Aprobado</td>
-      </tr>
-      <tr>
-        <td>3</td>
-        <td style="text-align:left">Juan Manuel Ruiz</td>
-        <td>2.8</td>
-        <td>3.0</td>
-        <td>2.5</td>
-        <td>2.9</td>
-        <td>2.7</td>
-        <td class="nota-baja"><strong>2.8</strong></td>
-        <td>Reprobado</td>
-      </tr>
-      <tr>
-        <td>4</td>
-        <td style="text-align:left">Enhoc Bedoya</td>
-        <td>5.0</td>
-        <td>4.9</td>
-        <td>5.0</td>
-        <td>4.8</td>
-        <td>5.0</td>
-        <td><strong>4.9</strong></td>
-        <td>Aprobado</td>
-      </tr>
-      <tr>
-        <td>5</td>
-        <td style="text-align:left">Jesus Grande</td>
-        <td>3.0</td>
-        <td>2.8</td>
-        <td>3.2</td>
-        <td>3.1</td>
-        <td>2.9</td>
-        <td class="nota-baja"><strong>3.0</strong></td>
-        <td>Aprobado</td>
-      </tr>
-      <tr>
-        <td>6</td>
-        <td style="text-align:left">Juan Manuel Ruiz</td>
-        <td>4.1</td>
-        <td>4.3</td>
-        <td>4.0</td>
-        <td>4.5</td>
-        <td>4.2</td>
-        <td><strong>4.2</strong></td>
-        <td>Aprobado</td>
-      </tr>
-    </tbody>
-  </table>
-
-  
-  <div class="pie">
-    <span>Docente: <strong>Jesus Grande</strong></span>
-    <span>Coordinador: <strong>Juan Manuel Ruiz</strong></span>
-    <span>Rector: <strong>Enhoc Bedoya</strong></span>
-  </div>
-
-</div>
 
 </body>
+
 </html>
