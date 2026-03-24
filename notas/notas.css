@@ -1,0 +1,172 @@
+  body {
+      background: white;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      color: black;
+    }
+
+    .contenedor {
+      border: 2px solid black;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+  
+    .header {
+      display: flex;
+      border-bottom: 2px solid black;
+    }
+
+    .escudo {
+      width: 50px;
+      height: 60px;
+      background: black;
+      clip-path: polygon(50% 0%, 100% 15%, 100% 60%, 50% 100%, 0% 60%, 0% 15%);
+    }
+
+    .header-centro {
+      flex: 1;
+      text-align: center;
+      padding: 12px 20px;
+    }
+
+    .header-centro h1 {
+      font-size: 20px;
+      font-weight: bold;
+      margin: 0 0 5px 0;
+      text-transform: uppercase;
+    }
+
+    .header-centro p {
+      font-size: 10px;
+      font-style: italic;
+      margin: 0;
+      text-transform: uppercase;
+    }
+
+    .header-admin {
+      border-left: 2px solid black;
+      padding: 10px 12px;
+      font-size: 11px;
+      text-align: right;
+      line-height: 1.6;
+    }
+
+    .barra-botones {
+      background: #eee;
+      border-bottom: 1px solid black;
+      padding: 5px 10px;
+      text-align: right;
+    }
+
+    .barra-botones button {
+      width: 28px;
+      height: 28px;
+      border: 1px solid black;
+      background: white;
+      cursor: pointer;
+      margin-left: 4px;
+      font-size: 13px;
+    }
+
+    .titulo-seccion {
+      background: #ddd;
+      border-bottom: 1px solid black;
+      text-align: center;
+      padding: 4px;
+      font-size: 12px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .formulario {
+      padding: 10px 14px 16px;
+      background: #f9f9f9;
+    }
+
+    .fila {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 7px;
+    }
+
+    .campo {
+      display: flex;
+      align-items: center;
+    }
+
+    .etiqueta {
+      background: #ddd;
+      border: 1px solid black;
+      border-right: none;
+      padding: 3px 10px;
+      font-size: 11px;
+      font-weight: bold;
+      white-space: nowrap;
+    }
+
+    .campo select,
+    .campo input {
+      border: 1px solid black;
+      padding: 3px 6px;
+      font-size: 11px;
+      background: white;
+      color: black;
+    }
+
+    .campo-grande {
+      flex: 1;
+    }
+
+    .titulo-tabla {
+      background: #ddd;
+      border: 1px solid black;
+      text-align: center;
+      padding: 5px;
+      font-weight: bold;
+      font-size: 12px;
+      text-transform: uppercase;
+      margin-top: 16px;
+      letter-spacing: 1px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 12px;
+      margin-top: 0;
+    }
+
+    table th {
+      background: #ddd;
+      border: 1px solid black;
+      padding: 5px 8px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    table td {
+      border: 1px solid black;
+      padding: 5px 8px;
+      text-align: center;
+    }
+
+    table tr:nth-child(even) td {
+      background: #f0f0f0;
+    }
+
+    .nota-baja {
+      font-weight: bold;
+      text-decoration: underline;
+    }
+
+    .pie {
+      border-top: 2px solid black;
+      padding: 8px 14px;
+      font-size: 11px;
+      background: #eee;
+      display: flex;
+      justify-content: space-between;
+    }
